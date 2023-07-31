@@ -26,8 +26,6 @@ def CreatePassword(letters_required, numbers_required, symbols_required):
 
     username = input("Enter username for the acoount: ")
     print(f"\nYour {username} password is: {password}\n")
-    
-
 
     #Saving the password to a txt file named password
     file = open('password.txt', 'a')
